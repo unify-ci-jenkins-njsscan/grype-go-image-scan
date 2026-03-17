@@ -6,8 +6,8 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: 30 21 * * 1,4
+  # schedule:
+  #   - cron: 30 21 * * 1,4
 permissions:
   scm-token-own: read
   scm-token-org: read
